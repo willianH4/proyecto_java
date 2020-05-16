@@ -11,6 +11,8 @@ public class CostoComputadora {
      
      BufferedReader leer = new BufferedReader(new InputStreamReader(System.in));
      
+        System.out.println("Bienvenido este es un ejemplo para el uso de sourcetree");
+        
      try{
          System.out.println("ingrese Precio de la computadora: ");
          precioInicial = Double.parseDouble(leer.readLine());
